@@ -1,14 +1,14 @@
 ## Show me your property
 Utilise le create-react-app pour démarrer un nouveau projet vide.
-Créé un composant Author qui aura une propriété name
-Au clic sur le composant <Author /> une alerte montrera le nom de l'auteur
-Le composant <Author /> doit être appelé dans le composant <App />
+Crée un composant "Author" qui aura une propriété "name".
+Au clic sur le composant <Author /> une alerte montrera le nom de l'auteur.
+Le composant <Author /> doit être appelé dans le composant <App />.
 Le code sera disponible sur un gist.
 
 ## Critères de validation
-Le composant est dans une classe javascript ES6
-L'appel du composant ressemble à <Author name="Bob" />
-Au clic sur le composant le nom de l'auteur s'affiche
+- Le composant est dans une classe javascript ES6.
+- L'appel du composant ressemble à <Author name="Bob" />
+- Au clic sur le composant le nom de l'auteur s'affiche
 
 _________________________________________
 
