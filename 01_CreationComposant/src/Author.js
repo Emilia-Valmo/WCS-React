@@ -5,11 +5,17 @@ class Author extends Component {
     super(props);
     this.state = {
     };
+    this.showName = this.showName.bind(this);
+
+  }
+
+  showName(){
+    alert(this.props.name)
   }
 
   render() {
     return (
-      <button className="btn btn-primary" onClick={this.props.showName}>
+      <button className="btn btn-primary" onClick={this.showName}>
         Dévoilez le plus beau des prénoms
       </button>
     );
