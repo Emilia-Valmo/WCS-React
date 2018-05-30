@@ -1,16 +1,18 @@
-## Show me your property
-Utilise le create-react-app pour démarrer un nouveau projet vide.
-Crée un composant "Author" qui aura une propriété "name".
-Au clic sur le composant <Author /> une alerte montrera le nom de l'auteur.
-Le composant <Author /> doit être appelé dans le composant <App />.
+## Password complexity
+Créer un composant Password qui affiche un texte en fonction de la complexité du mot de passe. Ce composant contient un formulaire avec un champ input, un bouton (de type submit) et une zone de texte (pour le texte sur la complexité).
+
+Le texte à afficher est :
+Mot de passe faible (< 6 caractères / tout en minuscule / pas de caractères spéciaux) Mot de passe moyen (> 6 caractères / minuscules + majuscules / pas de caractères spéciaux) Mot de passe fort (> 6 caractères / minuscules + majuscules / caractères spéciaux) De plus, le formulaire ne pourra pas être envoyé si le mot de passe est faible, dans ce cas, une alerte s'affichera avec le message Votre mot de passe est trop faible.
+
+Le composant doit être appelé dans le composant
+
 Le code sera disponible sur un gist.
 
 ## Critères de validation
-- Le composant est dans une classe javascript ES6.
-- L'appel du composant ressemble à <Author name="Bob" />
-- Au clic sur le composant le nom de l'auteur s'affiche
+Le composant est dans une classe javascript ES6 L'appel du composant ressemble à et affiche un input ainsi qu'un bouton Si le mot de passe est trop faible le formulaire ne s'envoie pas Le texte sur la complexité du mot de passe évolue en fonction de ce que tape l'utilisateur
 
-_________________________________________
+
+__________________________________
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).

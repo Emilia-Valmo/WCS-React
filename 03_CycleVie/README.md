@@ -1,22 +1,23 @@
-## Show me your property
-Utilise le create-react-app pour démarrer un nouveau projet vide.
-Crée un composant "Author" qui aura une propriété "name".
-Au clic sur le composant <Author /> une alerte montrera le nom de l'auteur.
-Le composant <Author /> doit être appelé dans le composant <App />.
-Le code sera disponible sur un gist.
+## C'est l'histoire de la vie, le cycle éternel !
+Créer un composant React MyTimer qui affiche un timer en navigateur via le state (setInterval toutes les secondes faisant appel à this.setState()) seulement au moment où il est monté et prévient en console à chaque update effectué avec un texte du type : un update a eu lieu.
+
+Le timer se mettra donc à jour toutes les secondes pour l'utilisateur et le un update a eu lieu sera visible toutes les secondes en console.
+
+Pour la fonction dans le setInterval, préfère la syntaxe fléchée de l'ES6 pour conserver le this, sinon ta fonction this.setState() ne fonctionnera pas dans le setInterval.
+
+Le ficher sera disponible via un gist.
 
 ## Critères de validation
-- Le composant est dans une classe javascript ES6.
-- L'appel du composant ressemble à <Author name="Bob" />
-- Au clic sur le composant le nom de l'auteur s'affiche
-
-_________________________________________
-
+Le composant écoute le montage du composant
+Le composant écoute la mise à jour du composant
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+
+
+_____________________________________
 
 ## Table of Contents
 
