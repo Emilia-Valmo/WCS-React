@@ -10,13 +10,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: "Emilia ;)"
     };
-    this.showName = this.showName.bind(this);
-  }
-
-  showName(){
-    alert(this.state.name)
   }
 
   render() {
@@ -27,7 +21,7 @@ class App extends Component {
           <h1 className="App-title">Bienvenue sur la quête React d'Emilia</h1>
         </header>
       <div>
-        <Author showName={this.showName}/>
+        <Author name="Emilia ;)"/>
       </div>
       </div>
     );
