@@ -21,7 +21,7 @@ class SignUp extends Component {
 
 
     render() {
-        let myJson = JSON.stringify(this.state)
+        let myJson = JSON.stringify(this.state, 1, 1)
         return (
             <form className="container" onSubmit={this.handleSubmit}>
                 <h1>{myJson}</h1>
